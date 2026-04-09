@@ -473,6 +473,18 @@ export default function App() {
         break;
       }
 
+      // Phát âm thanh phản hồi từ AI
+      /*
+      case 'audio_playback': {
+        const audioBase64 = (msg as any).audio_base64;
+        if (audioBase64) {
+          const audio = new Audio(`data:audio/mp3;base64,${audioBase64}`);
+          audio.play().catch(err => console.error('[Audio] Playback error:', err));
+        }
+        break;
+      }
+      */
+
       default:
         break;
     }
