@@ -1,0 +1,5 @@
+{
+  "name": "RideFlow",
+  "description": "A premium, AI-powered ride-hailing experience with voice-first interactions and a polished editorial aesthetic.",
+  "requestFramePermissions": ["microphone"]
+}
